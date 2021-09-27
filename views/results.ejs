@@ -1,0 +1,26 @@
+<h1>THIS IS THE RESULTS PAGE</h1>
+
+<ul>
+    
+    <% for(var i = 0; i < data.length; i++){ %>
+        <li>
+            <strong>
+                <%= data[i].Title %>
+            </strong> 
+            - 
+            <em>
+                <%= data[i].Year %>
+            </em>
+        </li>
+    <% } %>
+
+</ul>
+
+
+<!-- Adding search again button without bootstrap -->
+<form>
+  <button formaction="/">!!!Search Againnn!!!</button>
+</form>
+
+
+
